@@ -1,0 +1,100 @@
+
+#upp_bbcode img{
+	cursor: pointer;
+}
+
+#upp_submit{
+	clear: both;
+	display: block;
+}
+
+#upp_comment{
+	width: 98%;
+}
+
+.upp_date{
+	font-size: 10px;
+	line-height: 10px;
+	color: #ccc;
+	text-align: right;	
+}
+
+.upp_comment{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.upp_comment .upp_padding{
+	border: 1px solid #ccc;	
+	padding: 5px 8px;
+	border-radius: 5px 5px 5px 5px;	
+	margin: 0 10px 0 10px;
+	line-height: 1.5em;
+}
+
+.upp_comment .mine .upp_padding{
+	background: #E9E8E8;
+}
+
+.upp_comment .other .upp_padding{
+	background: #fff;
+}
+
+.upp_talk{
+	position: absolute;
+	width: 100%;
+}
+
+.mine .upp_talk{
+	text-align: right;
+}
+
+.upp_talk div{
+	position: absolute;
+	top: -16px;
+	background: url(../images/talk-other.gif) no-repeat;	
+	height: 12px;
+	width: 11px;
+}
+
+.mine .upp_talk div{	
+	right: 0;
+	background: url(../images/talk-mine.gif) no-repeat;		
+}
+
+.upp_quote{	
+	padding: 5px 5px 5px 28px;
+	margin: 5px 0;
+	background: url(../images/quote-grey.gif) #E9E8E8 no-repeat;	
+}
+
+.mine .upp_quote,
+.other .upp_quote .upp_quote, 
+.mine .upp_quote .upp_quote .upp_quote, 
+.other .upp_quote .upp_quote .upp_quote .upp_quote,
+.mine .upp_quote .upp_quote .upp_quote .upp_quote .upp_quote{
+	background-color: #fff;	
+}
+
+.other .upp_quote, 
+.mine .upp_quote .upp_quote, 
+.other .upp_quote .upp_quote .upp_quote,
+.mine .upp_quote .upp_quote .upp_quote .upp_quote,
+.other .upp_quote .upp_quote .upp_quote .upp_quote .upp_quote{
+	background-color: #E9E8E8;	
+}
+
+.upp_image{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 5px;	
+}
+
+.upp_image img{
+	border: 1px solid #ccc;	
+}
+
+.upp_edit:hover{
+	background: none;
+}
+

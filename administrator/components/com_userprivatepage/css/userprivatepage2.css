@@ -1,0 +1,239 @@
+
+/* RESET JOOMLA STUFF */
+fieldset.adminform .adminlist label{
+	width: auto;
+	display: inline;
+	float: none;
+	font-size: 100%;
+	clear: auto;
+}
+
+fieldset .pi_table input, fieldset .pi_table textarea, fieldset .pi_table select, fieldset .pi_table img, fieldset .pi_table button{
+	display: inline;
+	float: none;
+	margin: 0;
+}
+
+.adminlist td{
+	vertical-align: top;
+}
+
+/* PI BASICS */
+
+table.pi_table td{
+	padding-bottom: 20px; 
+}
+
+table.pi_table td.pi_tdpadbotnone{
+	padding-bottom: 0; 
+}
+
+.pi_warning{
+	color: red;
+	padding: 20px 0 10px 0;
+}
+
+.pi_red{
+	color: red;
+}
+
+.pi_green{
+	color: #5F9E30;
+}
+
+.pi_nowrap{
+	white-space: nowrap;
+}
+
+.pi_displaynone{
+	display: none;
+}
+
+body table.pi_table{	
+	color: #000;
+	background: #fff;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+.pi_tableleft{
+	margin-left: 8px;
+}
+
+fieldset.adminform legend.pi_legend{
+	padding: 0 10px;
+	width: auto;
+	border: 0;	
+}
+
+div#pi_footer{
+	text-align: center;
+	padding-top: 100px;
+	clear: both;
+}
+
+#pi_footer table{
+	width: 600px; 
+	margin: 0 auto; 	
+}
+
+#pi_footer table td{
+	text-align: left;	
+	width: 300px;
+	white-space: nowrap;
+}
+
+#pi_footer table td.text_right{
+	text-align: right;	
+}
+
+#pi_footer table td.five_pix{
+	width: 3px;
+	text-align: center;
+}
+
+.pi_show_bullets li{
+	list-style: square;
+	margin-left: 20px;
+}
+
+.pi_wrapper_nice{	
+	margin-left: 4px; 
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.pi_imgborder{
+	border: 1px solid #ccc;
+}
+
+div#element-box div.m form table.adminlist tr td a.pi_font{
+	font-size: 13px;
+}
+
+div#element-box div.m form table.adminlist tr td.pi_editor a, .pi_small{
+	font-size: 11px;
+}
+
+.pi_left, body div.joomla3 table.adminlist th.pi_left, table.adminlist thead th.pi_left{
+	text-align: left;
+}
+
+.pi_center, body div.joomla3 table.adminlist th.pi_center{
+	text-align: center;
+}
+
+/* OTHER BASICS */
+#version_checker_spinner{
+	display: none;
+}
+
+table.noimgmargin td img{
+	margin: 0;
+}
+
+/* TOOLTIP */
+a.pure_css_tooltip, span.pure_css_dropdown{		
+	border-bottom: 1px dashed #5788D5;
+	text-decoration: none;	
+}
+
+a:hover.pure_css_tooltip, span:hover.pure_css_dropdown{ 
+	padding: 0; 
+	text-decoration: none;
+} 
+
+.pure_css_tooltip:hover span span, .pure_css_dropdown:hover span span{
+	display: block;		
+}
+
+.pure_css_tooltip span, .pure_css_dropdown span{	
+	position: absolute;	
+	text-decoration: none;	
+}
+
+.pure_css_tooltip span span, .pure_css_dropdown span span{
+	display: none;	
+	position: absolute;
+	background-color: #F5F5F5;
+	border: 1px solid #08c;
+	padding: 10px;		
+	color: black;
+	text-decoration: none;
+	width: 150px;	
+	z-index: 100;
+	top: 20px;	
+	left: -8px;
+	text-align: left;	
+}
+
+.pure_css_dropdown span span{	
+	left: 0px;
+	top: -10px;
+}
+
+/* JOOMLA 3 */
+body div.joomla3 .pi_reorder{
+	width: 30px;
+}
+
+body div.joomla3 table.adminlist th{
+	text-align: center;
+}
+
+.icon-upp_icon{
+	background-image: url('../images/userprivatepage_toolbar_j3.png');	
+	margin-bottom: -5px;	
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	width: 25px;
+}
+
+body div.joomla3 table.pi_table{	
+	margin-top: 0px;
+	background: #F9F9F9;	
+}
+
+body div.joomla3 table.pi_table td {
+	padding-right: 8px;	
+}
+
+div.joomla3 fieldset.pi_wrapper_nice{	
+	background: #F9F9F9;
+	padding-left: 20px;	
+	margin-right: 10px;
+}
+
+div.joomla3 fieldset.adminform legend.pi_legend{
+	padding: 0;
+}
+
+/* EXTENSION SPECIFIC */
+.icon-48-upp_icon{
+	background-image: url('../images/userprivatepage_toolbar.png');
+}
+
+.padbottom{
+	margin-bottom: 5px;
+}
+
+.icon-32-upp_export{
+	background-image: url('../images/export_j25.png');
+}
+
+.icon-upp_export{
+	background: url('../images/export.png') no-repeat 1px 3px;
+}
+
+.upp_preview{
+	border: 1px solid #ccc;
+	padding: 7px;
+}
+

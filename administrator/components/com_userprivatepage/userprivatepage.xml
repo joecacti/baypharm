@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6" method="upgrade">
+    <name>COM_USERPRIVATEPAGE</name>
+    <creationDate>september 2015</creationDate>
+    <author>Carsten Engel</author>
+    <copyright>Copyright 2014-2015 (C) Carsten Engel - Engelweb. All rights reserved.</copyright>
+    <authorEmail></authorEmail>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorUrl>www.pages-and-items.com</authorUrl>
+    <version>1.2.1</version>
+    <description>create a page for each user, no other user can see.</description>	
+		    
+    <administration>  
+		<menu img="components/com_userprivatepage/images/userprivatepage_menu.png">COM_USERPRIVATEPAGE</menu> 	
+		<submenu>			
+			<menu link="option=com_userprivatepage&amp;view=configuration" view="configuration" img="components/com_userprivatepage/images/userprivatepage_configuration.png"
+				alt="Configuration">COM_USERPRIVATEPAGE_CONFIGURATION</menu>			
+			<menu link="option=com_userprivatepage&amp;view=userspages" view="userspages" img="components/com_userprivatepage/images/userprivatepage_menu.png" 
+				alt="Pages">COM_USERPRIVATEPAGE_USERSPAGES</menu>
+			<menu link="option=com_userprivatepage&amp;view=scripts" view="scripts" img="components/com_userprivatepage/images/userprivatepage_scripts.png" 
+				alt="Pages">COM_USERPRIVATEPAGE_SCRIPTS</menu>				
+			<menu link="option=com_userprivatepage&amp;view=support" view="support" img="components/com_userprivatepage/images/userprivatepage_support.png"
+				alt="Info-Support">COM_USERPRIVATEPAGE_SUPPORT</menu>					
+		</submenu>	   
+		<languages folder="admin">		
+			<language tag="af-ZA">language/af-ZA.com_userprivatepage.ini</language>
+			<language tag="af-ZA">language/af-ZA.com_userprivatepage.sys.ini</language>
+			<language tag="ar-EG">language/ar-EG.com_userprivatepage.ini</language>
+			<language tag="ar-EG">language/ar-EG.com_userprivatepage.sys.ini</language>
+			<language tag="be-BE">language/be-BE.com_userprivatepage.ini</language>
+			<language tag="be-BE">language/be-BE.com_userprivatepage.sys.ini</language>
+			<language tag="bg-BG">language/bg-BG.com_userprivatepage.ini</language>
+			<language tag="bg-BG">language/bg-BG.com_userprivatepage.sys.ini</language>
+			<language tag="ca-ES">language/ca-ES.com_userprivatepage.ini</language>
+			<language tag="ca-ES">language/ca-ES.com_userprivatepage.sys.ini</language>
+			<language tag="cs-CZ">language/cs-CZ.com_userprivatepage.ini</language>
+			<language tag="cs-CZ">language/cs-CZ.com_userprivatepage.sys.ini</language>
+			<language tag="cy-GB">language/cy-GB.com_userprivatepage.ini</language>
+			<language tag="cy-GB">language/cy-GB.com_userprivatepage.sys.ini</language>
+			<language tag="da-DK">language/da-DK.com_userprivatepage.ini</language>
+			<language tag="da-DK">language/da-DK.com_userprivatepage.sys.ini</language>
+			<language tag="de-DE">language/de-DE.com_userprivatepage.ini</language>
+			<language tag="de-DE">language/de-DE.com_userprivatepage.sys.ini</language>
+			<language tag="el-GR">language/el-GR.com_userprivatepage.ini</language>
+			<language tag="el-GR">language/el-GR.com_userprivatepage.sys.ini</language>
+			<language tag="en-GB">language/en-GB.com_userprivatepage.ini</language>
+			<language tag="en-GB">language/en-GB.com_userprivatepage.sys.ini</language>
+			<language tag="es-ES">language/es-ES.com_userprivatepage.ini</language>
+			<language tag="es-ES">language/es-ES.com_userprivatepage.sys.ini</language>
+			<language tag="et-EE">language/et-EE.com_userprivatepage.ini</language>
+			<language tag="et-EE">language/et-EE.com_userprivatepage.sys.ini</language>
+			<language tag="fa-IR">language/fa-IR.com_userprivatepage.ini</language>
+			<language tag="fa-IR">language/fa-IR.com_userprivatepage.sys.ini</language>
+			<language tag="fi-FI">language/fi-FI.com_userprivatepage.ini</language>
+			<language tag="fi-FI">language/fi-FI.com_userprivatepage.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR.com_userprivatepage.ini</language>
+			<language tag="fr-FR">language/fr-FR.com_userprivatepage.sys.ini</language>
+			<language tag="ga-IE">language/ga-IE.com_userprivatepage.ini</language>
+			<language tag="ga-IE">language/ga-IE.com_userprivatepage.sys.ini</language>
+			<language tag="gl-ES">language/gl-ES.com_userprivatepage.ini</language>
+			<language tag="gl-ES">language/gl-ES.com_userprivatepage.sys.ini</language>
+			<language tag="he-IL">language/he-IL.com_userprivatepage.ini</language>
+			<language tag="he-IL">language/he-IL.com_userprivatepage.sys.ini</language>
+			<language tag="hi-IN">language/hi-IN.com_userprivatepage.ini</language>
+			<language tag="hi-IN">language/hi-IN.com_userprivatepage.sys.ini</language>
+			<language tag="hr-HR">language/hr-HR.com_userprivatepage.ini</language>
+			<language tag="hr-HR">language/hr-HR.com_userprivatepage.sys.ini</language>
+			<language tag="ht-NG">language/ht-NG.com_userprivatepage.ini</language>
+			<language tag="ht-NG">language/ht-NG.com_userprivatepage.sys.ini</language>
+			<language tag="hu-HU">language/hu-HU.com_userprivatepage.ini</language>
+			<language tag="hu-HU">language/hu-HU.com_userprivatepage.sys.ini</language>
+			<language tag="id-ID">language/id-ID.com_userprivatepage.ini</language>
+			<language tag="id-ID">language/id-ID.com_userprivatepage.sys.ini</language>
+			<language tag="is-IS">language/is-IS.com_userprivatepage.ini</language>
+			<language tag="is-IS">language/is-IS.com_userprivatepage.sys.ini</language>
+			<language tag="it-IT">language/it-IT.com_userprivatepage.ini</language>
+			<language tag="it-IT">language/it-IT.com_userprivatepage.sys.ini</language>
+			<language tag="ja-JP">language/ja-JP.com_userprivatepage.ini</language>
+			<language tag="ja-JP">language/ja-JP.com_userprivatepage.sys.ini</language>
+			<language tag="ko-KR">language/ko-KR.com_userprivatepage.ini</language>
+			<language tag="ko-KR">language/ko-KR.com_userprivatepage.sys.ini</language>
+			<language tag="lt-LT">language/lt-LT.com_userprivatepage.ini</language>
+			<language tag="lt-LT">language/lt-LT.com_userprivatepage.sys.ini</language>
+			<language tag="lv-LV">language/lv-LV.com_userprivatepage.ini</language>
+			<language tag="lv-LV">language/lv-LV.com_userprivatepage.sys.ini</language>
+			<language tag="mk-MK">language/mk-MK.com_userprivatepage.ini</language>
+			<language tag="mk-MK">language/mk-MK.com_userprivatepage.sys.ini</language>
+			<language tag="ms-MY">language/ms-MY.com_userprivatepage.ini</language>
+			<language tag="ms-MY">language/ms-MY.com_userprivatepage.sys.ini</language>
+			<language tag="mt-MT">language/mt-MT.com_userprivatepage.ini</language>
+			<language tag="mt-MT">language/mt-MT.com_userprivatepage.sys.ini</language>
+			<language tag="nl-NL">language/nl-NL.com_userprivatepage.ini</language>
+			<language tag="nl-NL">language/nl-NL.com_userprivatepage.sys.ini</language>
+			<language tag="no-NO">language/no-NO.com_userprivatepage.ini</language>
+			<language tag="no-NO">language/no-NO.com_userprivatepage.sys.ini</language>
+			<language tag="pl-PL">language/pl-PL.com_userprivatepage.ini</language>
+			<language tag="pl-PL">language/pl-PL.com_userprivatepage.sys.ini</language>
+			<language tag="pt-PT">language/pt-PT.com_userprivatepage.ini</language>
+			<language tag="pt-PT">language/pt-PT.com_userprivatepage.sys.ini</language>
+			<language tag="ro-RO">language/ro-RO.com_userprivatepage.ini</language>
+			<language tag="ro-RO">language/ro-RO.com_userprivatepage.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU.com_userprivatepage.ini</language>
+			<language tag="ru-RU">language/ru-RU.com_userprivatepage.sys.ini</language>
+			<language tag="sk-SK">language/sk-SK.com_userprivatepage.ini</language>
+			<language tag="sk-SK">language/sk-SK.com_userprivatepage.sys.ini</language>
+			<language tag="sl-SI">language/sl-SI.com_userprivatepage.ini</language>
+			<language tag="sl-SI">language/sl-SI.com_userprivatepage.sys.ini</language>
+			<language tag="sq-AL">language/sq-AL.com_userprivatepage.ini</language>
+			<language tag="sq-AL">language/sq-AL.com_userprivatepage.sys.ini</language>
+			<language tag="sr-RS">language/sr-RS.com_userprivatepage.ini</language>
+			<language tag="sr-RS">language/sr-RS.com_userprivatepage.sys.ini</language>
+			<language tag="sv-SE">language/sv-SE.com_userprivatepage.ini</language>
+			<language tag="sv-SE">language/sv-SE.com_userprivatepage.sys.ini</language>
+			<language tag="sw-TZ">language/sw-TZ.com_userprivatepage.ini</language>
+			<language tag="sw-TZ">language/sw-TZ.com_userprivatepage.sys.ini</language>
+			<language tag="th-TH">language/th-TH.com_userprivatepage.ini</language>
+			<language tag="th-TH">language/th-TH.com_userprivatepage.sys.ini</language>
+			<language tag="tl-PH">language/tl-PH.com_userprivatepage.ini</language>
+			<language tag="tl-PH">language/tl-PH.com_userprivatepage.sys.ini</language>
+			<language tag="tr-TR">language/tr-TR.com_userprivatepage.ini</language>
+			<language tag="tr-TR">language/tr-TR.com_userprivatepage.sys.ini</language>
+			<language tag="uk-UA">language/uk-UA.com_userprivatepage.ini</language>
+			<language tag="uk-UA">language/uk-UA.com_userprivatepage.sys.ini</language>
+			<language tag="vi-VN">language/vi-VN.com_userprivatepage.ini</language>
+			<language tag="vi-VN">language/vi-VN.com_userprivatepage.sys.ini</language>
+			<language tag="yi-IL">language/yi-IL.com_userprivatepage.ini</language>
+			<language tag="yi-IL">language/yi-IL.com_userprivatepage.sys.ini</language>
+			<language tag="zh-CN">language/zh-CN.com_userprivatepage.ini</language>
+			<language tag="zh-CN">language/zh-CN.com_userprivatepage.sys.ini</language>
+			<language tag="zh-TW">language/zh-TW.com_userprivatepage.ini</language>
+			<language tag="zh-TW">language/zh-TW.com_userprivatepage.sys.ini</language>
+		</languages> 		
+		<files folder="admin">	
+				
+			<folder>css</folder>
+			<folder>edit_area</folder>	
+			<folder>helpers</folder>		
+			<folder>images</folder>	
+			<folder>language</folder>		
+			<folder>models</folder>							
+			<folder>views</folder>
+			
+			<filename>config.xml</filename>	
+			<filename>controller.php</filename>		
+			<filename>userprivatepage.php</filename>			
+			<filename>index.html</filename>								
+									
+		</files>	
+		
+	</administration>
+	<languages folder="site">		
+		<language tag="af-ZA">language/af-ZA.com_userprivatepage.ini</language>
+		<language tag="ar-EG">language/ar-EG.com_userprivatepage.ini</language>
+		<language tag="be-BE">language/be-BE.com_userprivatepage.ini</language>
+		<language tag="bg-BG">language/bg-BG.com_userprivatepage.ini</language>
+		<language tag="ca-ES">language/ca-ES.com_userprivatepage.ini</language>
+		<language tag="cs-CZ">language/cs-CZ.com_userprivatepage.ini</language>
+		<language tag="cy-GB">language/cy-GB.com_userprivatepage.ini</language>
+		<language tag="da-DK">language/da-DK.com_userprivatepage.ini</language>
+		<language tag="de-DE">language/de-DE.com_userprivatepage.ini</language>
+		<language tag="el-GR">language/el-GR.com_userprivatepage.ini</language>
+		<language tag="en-GB">language/en-GB.com_userprivatepage.ini</language>
+		<language tag="es-ES">language/es-ES.com_userprivatepage.ini</language>
+		<language tag="et-EE">language/et-EE.com_userprivatepage.ini</language>
+		<language tag="fa-IR">language/fa-IR.com_userprivatepage.ini</language>
+		<language tag="fi-FI">language/fi-FI.com_userprivatepage.ini</language>
+		<language tag="fr-FR">language/fr-FR.com_userprivatepage.ini</language>
+		<language tag="ga-IE">language/ga-IE.com_userprivatepage.ini</language>
+		<language tag="gl-ES">language/gl-ES.com_userprivatepage.ini</language>
+		<language tag="he-IL">language/he-IL.com_userprivatepage.ini</language>
+		<language tag="hi-IN">language/hi-IN.com_userprivatepage.ini</language>
+		<language tag="hr-HR">language/hr-HR.com_userprivatepage.ini</language>
+		<language tag="ht-NG">language/ht-NG.com_userprivatepage.ini</language>
+		<language tag="hu-HU">language/hu-HU.com_userprivatepage.ini</language>
+		<language tag="id-ID">language/id-ID.com_userprivatepage.ini</language>
+		<language tag="is-IS">language/is-IS.com_userprivatepage.ini</language>
+		<language tag="it-IT">language/it-IT.com_userprivatepage.ini</language>
+		<language tag="ja-JP">language/ja-JP.com_userprivatepage.ini</language>
+		<language tag="ko-KR">language/ko-KR.com_userprivatepage.ini</language>
+		<language tag="lt-LT">language/lt-LT.com_userprivatepage.ini</language>
+		<language tag="lv-LV">language/lv-LV.com_userprivatepage.ini</language>
+		<language tag="mk-MK">language/mk-MK.com_userprivatepage.ini</language>
+		<language tag="ms-MY">language/ms-MY.com_userprivatepage.ini</language>
+		<language tag="mt-MT">language/mt-MT.com_userprivatepage.ini</language>
+		<language tag="nl-NL">language/nl-NL.com_userprivatepage.ini</language>
+		<language tag="no-NO">language/no-NO.com_userprivatepage.ini</language>
+		<language tag="pl-PL">language/pl-PL.com_userprivatepage.ini</language>
+		<language tag="pt-BR">language/pt-BR.com_userprivatepage.ini</language>
+		<language tag="pt-PT">language/pt-PT.com_userprivatepage.ini</language>
+		<language tag="ro-RO">language/ro-RO.com_userprivatepage.ini</language>
+		<language tag="ru-RU">language/ru-RU.com_userprivatepage.ini</language>
+		<language tag="sk-SK">language/sk-SK.com_userprivatepage.ini</language>
+		<language tag="sl-SI">language/sl-SI.com_userprivatepage.ini</language>
+		<language tag="sq-AL">language/sq-AL.com_userprivatepage.ini</language>
+		<language tag="sr-RS">language/sr-RS.com_userprivatepage.ini</language>
+		<language tag="sv-SE">language/sv-SE.com_userprivatepage.ini</language>
+		<language tag="sw-TZ">language/sw-TZ.com_userprivatepage.ini</language>
+		<language tag="th-TH">language/th-TH.com_userprivatepage.ini</language>
+		<language tag="tl-PH">language/tl-PH.com_userprivatepage.ini</language>
+		<language tag="tr-TR">language/tr-TR.com_userprivatepage.ini</language>
+		<language tag="uk-UA">language/uk-UA.com_userprivatepage.ini</language>
+		<language tag="vi-VN">language/vi-VN.com_userprivatepage.ini</language>
+		<language tag="yi-IL">language/yi-IL.com_userprivatepage.ini</language>
+		<language tag="zh-CN">language/zh-CN.com_userprivatepage.ini</language>
+		<language tag="zh-TW">language/zh-TW.com_userprivatepage.ini</language>
+	</languages> 
+	<files folder="site">		
+		<folder>css</folder>	
+		<folder>images</folder>	
+		<folder>models</folder>	
+		<folder>views</folder>		
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>userprivatepage.php</filename>
+		<filename>router.php</filename>			
+	</files>			
+	
+	<scriptfile>install.script.php</scriptfile>		
+	
+	<updateservers>
+		<server type="extension" priority="1" name="com_userprivatepage"><![CDATA[http://www.pages-and-items.com/updateserver.php?ext=userprivatepage&type=free]]></server>
+	</updateservers>
+		
+</extension>
